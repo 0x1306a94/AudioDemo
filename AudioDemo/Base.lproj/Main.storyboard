@@ -25,8 +25,8 @@
                                 <rect key="frame" x="65" y="283" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.89586139815690347" green="1" blue="0.55731283629682382" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="tYR-sL-oa0"/>
-                                    <constraint firstAttribute="height" constant="100" id="xwn-VC-Z4K"/>
+                                    <constraint firstAttribute="height" constant="100" id="Ts5-Dg-lXC"/>
+                                    <constraint firstAttribute="width" constant="100" id="tgt-tH-G31"/>
                                 </constraints>
                                 <state key="normal" title="录制">
                                     <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
@@ -45,8 +45,8 @@
                                 <rect key="frame" x="217" y="283" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.89586139819999999" green="1" blue="0.55731283629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Guf-0p-2eL"/>
-                                    <constraint firstAttribute="height" constant="100" id="UIg-Vb-eBF"/>
+                                    <constraint firstAttribute="height" constant="100" id="7c6-hY-Gal"/>
+                                    <constraint firstAttribute="width" constant="100" id="VR6-h0-UPD"/>
                                 </constraints>
                                 <state key="normal" title="录制">
                                     <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
@@ -61,8 +61,8 @@
                                     <action selector="recordingdynamic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bwE-55-DbO"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7BF-MO-aJO">
-                                <rect key="frame" x="65" y="253" width="252" height="0.0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7BF-MO-aJO">
+                                <rect key="frame" x="65" y="232.5" width="252" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -70,14 +70,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="NZ0-MF-UZv" secondAttribute="trailing" constant="58" id="6Ki-Ew-2ax"/>
-                            <constraint firstItem="7BF-MO-aJO" firstAttribute="leading" secondItem="0Mk-R7-kiZ" secondAttribute="leading" id="AA6-gm-bd4"/>
-                            <constraint firstItem="NZ0-MF-UZv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FXQ-XP-qob"/>
-                            <constraint firstItem="0Mk-R7-kiZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="263" id="G5p-8N-v8G"/>
-                            <constraint firstItem="NZ0-MF-UZv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="263" id="MsD-wg-IaB"/>
-                            <constraint firstItem="0Mk-R7-kiZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="65" id="aKW-fT-31h"/>
-                            <constraint firstItem="7BF-MO-aJO" firstAttribute="trailing" secondItem="NZ0-MF-UZv" secondAttribute="trailing" id="vcW-hm-GAv"/>
-                            <constraint firstItem="0Mk-R7-kiZ" firstAttribute="top" secondItem="7BF-MO-aJO" secondAttribute="bottom" constant="30" id="zOy-nk-ofp"/>
+                            <constraint firstItem="0Mk-R7-kiZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="65" id="0Ea-5h-nKQ"/>
+                            <constraint firstAttribute="trailing" secondItem="NZ0-MF-UZv" secondAttribute="trailing" constant="58" id="Ge5-vP-BN1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Mk-R7-kiZ" secondAttribute="bottom" constant="284" id="V9m-dV-f2z"/>
+                            <constraint firstAttribute="trailing" secondItem="7BF-MO-aJO" secondAttribute="trailing" constant="58" id="lFj-Mf-RTs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NZ0-MF-UZv" secondAttribute="bottom" constant="284" id="sAP-KM-A2V"/>
+                            <constraint firstItem="NZ0-MF-UZv" firstAttribute="top" secondItem="7BF-MO-aJO" secondAttribute="bottom" constant="30" id="uCq-GT-vCU"/>
+                            <constraint firstItem="7BF-MO-aJO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="65" id="x9J-qI-qDb"/>
                         </constraints>
                     </view>
                     <connections>

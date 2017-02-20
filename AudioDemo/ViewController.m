@@ -56,7 +56,7 @@
 - (IBAction)recordingdynamic:(UIButton *)sender {
     
     self.b = NO;
-    while (self.b) {
+    while (!self.b) {
         NSError *error = nil;
         BOOL ret = [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord
                                                           error:&error];
